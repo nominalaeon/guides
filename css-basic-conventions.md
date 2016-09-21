@@ -6,11 +6,11 @@
 
 **Ground rule #2:** When I say *Sass*, I'm talking about CSS compilers in general. I'm not going to cover any Sass concept that doesn't exist in Sass, SCSS, Less, Stylus, or whatever. Anything I use Sass syntax to illustrate is a Google search away from becoming the syntax you require.
 
-If you're *not* writing CSS with a pre-processor, stop all the things and go install a one. They fit any project and will make your life the opposite of the living hell it is right now.
+If you're *not* writing CSS with a pre-processor, stop all the things and go install one. They fit any project and will make your life the opposite of the living hell it is right now.
 
 If you want to quibble over the whole *saying "Sass" is the same as saying "SCSS"* thing, prove your point by installing a Sass pre-processor and use `.sass` files. Yeah, "who does that anymore", right? Right.
 
-* * **
+* * *
 
 <!-- MarkdownTOC -->
 
