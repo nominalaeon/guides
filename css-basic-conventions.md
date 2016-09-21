@@ -29,7 +29,7 @@ If you want to quibble over the whole *saying "Sass" is the same as saying "SCSS
 
 <!-- /MarkdownTOC -->
 
-* * **
+* * *
 
 <a name="organizing"></a>
 ## Organizing
@@ -178,7 +178,7 @@ See the full, official, curated-by-someone-else list of pseudo-elements at [Mozi
 <a name="ids"></a>
 ### ID's
 
-You might have noticed that I forgot to mention ID selectors. If no one has ever sat you down and given you *the talk*, allow me the honor. ID's are for **form element** identification. For everything else, there's class names. Selecting DOM elements for manipulation with CSS (or JavaScript, I would half-heartedly argue and concede as soon as I faced any opposition) is a pretty good indication that you need to revisit your [naming conventions](#naming-conventions).
+You might have noticed that I forgot to mention ID selectors. If no one has ever sat you down and given you *the talk*, allow me the honor. ID's are for **form element** identification. For everything else, there's class names. Selecting DOM elements for manipulation with CSS (or JavaScript, I would half-heartedly argue and concede as soon as I faced any opposition) is a pretty good indication that you need to revisit your [naming conventions](#naming).
 
 <a name="naming"></a>
 ## Naming
