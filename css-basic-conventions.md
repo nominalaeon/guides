@@ -8,8 +8,6 @@
 
 If you're *not* writing CSS with a pre-processor, stop all the things and go install one. They fit any project and will make your life the opposite of the living hell it is right now.
 
-If you want to quibble over the whole *saying "Sass" is the same as saying "SCSS"* thing, prove your point by installing a Sass pre-processor and use `.sass` files. Yeah, "who does that anymore", right? Right.
-
 * * *
 
 <!-- MarkdownTOC -->
@@ -25,7 +23,9 @@ If you want to quibble over the whole *saying "Sass" is the same as saying "SCSS
     1. [ID's](#ids)
 1. [Naming](#naming)
 1. [Nesting](#nesting)
-1. ["I've got my own system. Hasn't failed me yet."](#ive-got-my-own-system-hasnt-failed-me-yet)
+1. [FAQ You](#faq-you)
+    1. ["I've got my own system. Hasn't failed me yet."](#ive-got-my-own-system-hasnt-failed-me-yet)
+    1. ["Sass in *not* the same as SCSS"](#sass-in-not-the-same-as-scss)
 
 <!-- /MarkdownTOC -->
 
@@ -261,8 +261,11 @@ Like anything else, BEM's meant to be used in moderation. Even with the `.saddle
 
 Protip: Don't put your saddle on a dirty pig.
 
+<a name="faq-you"></a>
+## FAQ You
+
 <a name="ive-got-my-own-system-hasnt-failed-me-yet"></a>
-## "I've got my own system. Hasn't failed me yet."
+### "I've got my own system. Hasn't failed me yet."
 
 <img src="images/my-own-system.jpg" alt="I've got my own system" title="I've got my own system" width="480px"/>
 
@@ -272,3 +275,13 @@ I will concede that **there is value in personal and team habits**. If you have 
 
 <img src="images/mad-props-outlier.png" alt="Mad props, outlier." title="Mad props, outlier." width="480px;"/>
 
+<a name="sass-in-not-the-same-as-scss"></a>
+### "Sass in *not* the same as SCSS"
+
+If you want to quibble over the whole *saying "Sass" is the same as saying "SCSS"* thing, prove your point by installing a Sass pre-processor and use `.sass` files.
+
+Yeah, "who does that anymore", right?
+
+Right.
+
+* * *
