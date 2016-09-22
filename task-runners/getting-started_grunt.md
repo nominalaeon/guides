@@ -109,18 +109,32 @@ If you haven't already, please read the overview for [project structure](../proj
 
 Now your project folder should look exactly like this
 
-* &#128194; project-name
-    * &#128194; src
-        * &#128194; images
-            * &#128196; any-image.png
-        * &#128194; scripts
-            * &#128196; app.js
-            * &#128196; app.service.js
-        * &#128194; scss
-            * &#128196; app.scss
-            * &#128196; fonts.scss
-        * &#128196; index.html
-        * &#128196; package.json
+<ul style="list-style: none; padding-left: 24px;">
+    <li>&#128194; project-name</li>
+    <li>&#128194; src
+        <ul style="list-style: none; padding-left: 24px;">
+            <li>&#128194; images
+                <ul style="list-style: none; padding-left: 24px;">        
+                    <li>&#128196; any-image.png</li>
+                </ul>
+            </li>
+            <li>&#128194; scripts
+                <ul style="list-style: none; padding-left: 24px;">
+                    <li>&#128196; app.js</li>
+                    <li>&#128196; app.service.js</li>
+                </ul>
+            </li>
+            <li>&#128194; scss
+                <ul style="list-style: none; padding-left: 24px;">
+                    <li>&#128196; app.scss</li>
+                    <li>&#128196; fonts.scss</li>
+                </ul>
+            </li>
+            <li>&#128196; index.html</li>
+            <li>&#128196; package.json</li>
+        </ul>
+    </li>
+</ul>
 
 
 <a id="markdown-grunt-setup" name="grunt-setup"></a>
