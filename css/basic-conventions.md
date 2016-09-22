@@ -1,4 +1,4 @@
-![CSS badge](../images/css-badge.png "CSS badge")
+![CSS badge](../_images/css-badge.png "CSS badge")
 
 # CSS Basic Conventions
 
@@ -181,7 +181,7 @@ See the full, official, curated-by-someone-else list of pseudo-elements at [Mozi
 
 **Alphabetize your selectors.** This one is tougher to swallow, but the best stuff often is. It's always tempting to group selectors together, letting their hierarchy be a self-serving table of contents. And aye, that will work. For a time. But, lying in your beds, years from now, would you not trade all of your days from then to now for one chance, just one chance, to enforce an alphabetized list of elements and class names ***before* they became too many to manage!**
 
-<img src="../images/lying-in-your-beds.jpg" alt="Lying in your beds" title="Lying in your beds" width="480px;"/>
+<img src="../_images/lying-in-your-beds.jpg" alt="Lying in your beds" title="Lying in your beds" width="480px;"/>
 
 
 <a id="markdown-ids" name="ids"></a>
@@ -280,13 +280,13 @@ Protip: Don't put your saddle on a dirty pig.
 <a id="markdown-ive-got-my-own-system-hasnt-failed-me-yet" name="ive-got-my-own-system-hasnt-failed-me-yet"></a>
 ### "I've got my own system. Hasn't failed me yet."
 
-<img src="../images/my-own-system.jpg" alt="I've got my own system" title="I've got my own system" width="480px"/>
+<img src="../_images/my-own-system.jpg" alt="I've got my own system" title="I've got my own system" width="480px"/>
 
 There's an outside chance that you're on of the dozens of developers that have never alphabetized their attributes and right now you're thinking "Not broke? Don't fix." There are a couple explanations for this response. 1) Your attribute blocks are still small enough that readability isn't effected or 2) you're totally in tune with the piles of clutter you've created for yourself. Both explanations are arguments against themselves. They are short-sighted and would be hard to say out-loud to your boss, but I totally dare you to anyway.
 
 I will concede that **there is value in personal and team habits**. If you have your own system and it truly hasn't failed you yet, kudes to you. I recommend you reconsider the code's readability; make sure your way is lowering your bus factor and creating an easy on-boarding process for new devs. If it is, then great. Mad props, outlier.
 
-<img src="../images/mad-props-outlier.png" alt="Mad props, outlier." title="Mad props, outlier." width="480px;"/>
+<img src="../_images/mad-props-outlier.png" alt="Mad props, outlier." title="Mad props, outlier." width="480px;"/>
 
 
 <a id="markdown-sass-in-not-the-same-as-scss" name="sass-in-not-the-same-as-scss"></a>

@@ -1,4 +1,4 @@
-![Grunt](../images/grunt.png "Grunt")
+![Grunt](../_images/grunt.png "Grunt")
 
 # Getting Started with Grunt
 
@@ -105,7 +105,7 @@ If you haven't already, please read the overview for [project structure](../proj
     * `mkdir images scripts scss`
 4.  Make base HTML, JavaScript, and SCSS files
     * `touch index.html scripts/app.js scripts/app.service.js scss/app.scss scss/_fonts.scss`
-5.  Get any image and copy it into the src/images folder
+5.  Get any image and copy it into the s../_images folder
 
 Now your project folder should look exactly like this
 
@@ -261,7 +261,7 @@ Inside the `grunt.initConfig` section, copy/paste the following code for each ta
     watch: {
         // watch "images" folder for changes
         images: {
-          files: ['src/images/**'],
+          files: ['s../_images/**'],
           tasks: ['copy:images']
         },
         // watch "scss" folder for changes
@@ -348,7 +348,7 @@ All together, your Gruntfile.js should now look like this:
 
             watch: {
                 images: {
-                    files: ['src/images/**'],
+                    files: ['s../_images/**'],
                     tasks: ['copy:images']
                 },
                 scss: {
