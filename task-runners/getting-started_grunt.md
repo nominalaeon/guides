@@ -120,7 +120,7 @@ Now your project folder should look exactly like this
             * &#128196; app.scss
             * &#128196; fonts.scss
         * &#128196; index.html
-        * &#128196; package.json
+    * &#128196; package.json
 
 
 <a id="markdown-grunt-setup" name="grunt-setup"></a>
