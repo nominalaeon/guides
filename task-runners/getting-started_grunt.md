@@ -109,18 +109,18 @@ If you haven't already, please read the overview for [project structure](../proj
 
 Now your project folder should look exactly like this
 
-* project-name &#128194;
-    * src &#128194;
-        * images &#128194;
-            * any-image.png &#128196;
-        * scripts &#128194;
-            * app.js &#128196;
-            * app.service.js &#128196;
-        * scss &#128194;
-            * app.scss &#128196;
-            * fonts.scss &#128196;
-        * index.html &#128196;
-        * package.json &#128196;
+* &#128194; project-name
+    * &#128194; src
+        * &#128194; images
+            * &#128196; any-image.png
+        * &#128194; scripts
+            * &#128196; app.js
+            * &#128196; app.service.js
+        * &#128194; scss
+            * &#128196; app.scss
+            * &#128196; fonts.scss
+        * &#128196; index.html
+        * &#128196; package.json
 
 
 <a id="markdown-grunt-setup" name="grunt-setup"></a>
