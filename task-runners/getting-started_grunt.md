@@ -21,7 +21,7 @@ Grunt uses pre-made and custom package tasks to define a firing order of actions
     8. [Configuring](#configuring)
         1. [Install some Grunt packages](#install-some-grunt-packages)
     9. [Registering main tasks](#registering-main-tasks)
-4. [Epilogue](#epilogue)
+4. [Running Grunt](#running-grunt)
 
 <!-- /TOC -->
 
@@ -296,69 +296,101 @@ At the bottom of "Gruntfile.js" there's this line: `grunt.registerTask('default'
 
 That array tells the *default* Grunt task to do those tasks, the ones we configured above, in that specific order.
 
-<a id="markdown-epilogue" name="epilogue"></a>
-## Epilogue
+To register custom tasks, follow the same pattern used by `default`. A common namespace for development environments is `build` and it typically follows the same task list used by `default`. Simply add another `registerTask` block below the `default` to accomplish this.
+
+As an example, here's a `build` command that runs the tasks in a different order than `default`:
+
+<pre>grunt.registerTask(<b>'build'</b>, [
+    'concat',
+    'compass',
+    'copy',
+    'watch'
+]);</pre>
+
+<a id="markdown-running-grunt" name="running-grunt"></a>
+## Running Grunt
 
 All together, your Gruntfile.js should now look like this:
 
-<div style="border: 1px solid #666; max-height: 400px; overflow-y:scroll; padding: 12px; max-width: 400px;">
-    
-<pre><code>'use strict';
+* * *
 
-module.exports = function (grunt) {
+    'use strict';
 
-    grunt.initConfig({
-        
-        compass: {
-            scss: {
-                options: {
-                    outputStyle: 'expanded',
-                    sassDir: 'src/scss',
-                    cssDir: 'app/css'
+    module.exports = function (grunt) {
+
+        grunt.initConfig({
+            
+            compass: {
+                scss: {
+                    options: {
+                        outputStyle: 'expanded',
+                        sassDir: 'src/scss',
+                        cssDir: 'app/css'
+                    }
+                }
+            },
+            
+            concat: {
+                scripts: {
+                    src: ['src/scripts/*.js'],
+                    dest: 'app/js/app.js',
+                },
+            },
+            
+            copy: {
+                images: {
+                    expand: true,
+                    cwd: 'src',
+                    src: 'images/**',
+                    dest: 'app'
+                }
+            },
+
+            watch: {
+                images: {
+                    files: ['src/images/**'],
+                    tasks: ['copy:images']
+                },
+                scss: {
+                    files: ['src/scss/**'],
+                    tasks: ['compass:scss']
+                },
+                scripts: {
+                    files: ['src/scripts/**'],
+                    tasks: ['concat:scripts']
                 }
             }
-        },
-        
-        concat: {
-            scripts: {
-                src: ['src/scripts/*.js'],
-                dest: 'app/js/app.js',
-            },
-        },
-        
-        copy: {
-            images: {
-                expand: true,
-                cwd: 'src',
-                src: 'images/**',
-                dest: 'app'
-            }
-        },
+            
+        });
 
-        watch: {
-            images: {
-                files: ['src/images/**'],
-                tasks: ['copy:images']
-            },
-            scss: {
-                files: ['src/scss/**'],
-                tasks: ['compass:scss']
-            },
-            scripts: {
-                files: ['src/scripts/**'],
-                tasks: ['concat:scripts']
-            }
-        }
-        
-    });
+        /** Default task */
+        grunt.registerTask('default', [
+            'copy',
+            'concat',
+            'compass',
+            'watch'
+        ]);
 
-    /** Default task */
-    grunt.registerTask('default', [
-        'copy',
-        'concat',
-        'compass',
-        'watch'
-    ]);
-};</code></pre>
+        /** Build task */
+        grunt.registerTask('build', [
+            'concat',
+            'compass',
+            'copy',
+            'watch'
+        ]);
+    };
 
-</div>
+* * *
+
+Now that all the tasks are configured and the main task is registered, we can run the default Grunt command from the project root. Use **debug** and **verbose** to recieve extra console feedback to help troubleshoot any issues that arise.
+
+`grunt --debug --verbose`
+
+This command will run through the tasks we've assigned. Since we've told it to `watch`, the command will continue running, rerunning the appropriate tasks when a watched filetype is altered.
+
+To end this command's watch and take your console back to neutral, simply press `ctril + c`.
+
+To run the custom build task, use the same command but call for `build`:
+
+`grunt build --debug --verbose`
+
