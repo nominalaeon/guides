@@ -1,3 +1,10 @@
+<style>
+    ul.directory-list, ul.directory-list ul {
+        list-style: none;
+        padding-left: 24px;
+    }
+</style>
+
 ![Grunt](../images/grunt.png "Grunt")
 
 # Getting Started with Grunt
@@ -109,23 +116,23 @@ If you haven't already, please read the overview for [project structure](../proj
 
 Now your project folder should look exactly like this
 
-<ul style="list-style: none; padding-left: 24px;">
+<ul class="directory-list">
     <li>&#128194; project-name</li>
     <li>&#128194; src
-        <ul style="list-style: none; padding-left: 24px;">
+        <ul>
             <li>&#128194; images
-                <ul style="list-style: none; padding-left: 24px;">        
+                <ul>        
                     <li>&#128196; any-image.png</li>
                 </ul>
             </li>
             <li>&#128194; scripts
-                <ul style="list-style: none; padding-left: 24px;">
+                <ul>
                     <li>&#128196; app.js</li>
                     <li>&#128196; app.service.js</li>
                 </ul>
             </li>
             <li>&#128194; scss
-                <ul style="list-style: none; padding-left: 24px;">
+                <ul>
                     <li>&#128196; app.scss</li>
                     <li>&#128196; fonts.scss</li>
                 </ul>
