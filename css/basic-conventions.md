@@ -44,16 +44,18 @@ All of the items nested inside of an element are more readable if you follow the
         background-color: $blue;
         position: relative;
         width: auto;                /** 3. Attributes */
-                                    
+        
         &:hover { ... }             /** 4. Pseudo-classes */
-                                    
+
         &::before { ... }           /** 5. Pseudo-elements */
-                                    
+
+        &.selector-class { ... }    /** 6. Classes */
+
         a { ... }
         h2 { ... }
-        span { ... }                /** 6. Elements */
-                                    
-        .selector-class             /** 7. Classes */
+        span { ... }                /** 7. Nested Elements */
+
+        .selector-class { ... }     /** 8. Nested Classes */
     }
 
 > **Line-breaks:** I'm a huge fan of white space. Some people are comfortable jamming everything together, but a simple double line-break is an easy way to visually separate concepts.
@@ -145,7 +147,7 @@ Keep **@include** declarations second so they can overwrite any **@extend** decl
 
 You'll have noticed there are a couple exceptions to alphabetic ordering:
 
-***Position* attributes:** The shorthand rule for positioning (top, right, bottom, left) is tricky to learn and remember at first. Order positioning properties in a way to facilitate learning and retaining that convention because it can feel very counter-intuitive at first.
+***Position* attributes:** The shorthand rule for positioning (top, right, bottom, left) is tricky to learn and remember at first. It can help to think of this like a compass (north, east, south, west). Order positioning properties in a way to facilitate learning and retaining that convention because it can feel very counter-intuitive at first.
 
 <pre>element {
     margin: <b>2px 4px 6px 8px</b>; // <b>top, right, bottom, left</b>
