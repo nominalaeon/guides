@@ -183,6 +183,7 @@ See the full, official, curated-by-someone-else list of pseudo-elements at [Mozi
 
 <img src="../_images/lying-in-your-beds.jpg" alt="Lying in your beds" title="Lying in your beds" width="480px;"/>
 
+> <small>Please note, this convention is not at all meant to replace splitting CSS into [single-responsibility files and directories](../project-structure/basic-conventions.md#scss). If you disagree with this approach, please refer to [the FAQ](#faq-you).
 
 <a id="markdown-ids" name="ids"></a>
 ### ID's
