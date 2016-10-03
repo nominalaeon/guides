@@ -1,4 +1,4 @@
-![CSS badge](../_images/css-badge.png "CSS badge")
+<img src="../_images/css-badge.png" alt="CSS badge" title="CSS badge" height="260px"/>
 
 # CSS Basic Conventions
 
@@ -147,7 +147,7 @@ Keep **@include** declarations second so they can overwrite any **@extend** decl
 
 You'll have noticed there are a couple exceptions to alphabetic ordering:
 
-***Position* attributes:** The shorthand rule for positioning (top, right, bottom, left) is tricky to learn and remember at first. It can help to think of this like a compass (north, east, south, west). Order positioning properties in a way to facilitate learning and retaining that convention because it can feel very counter-intuitive at first.
+***Position* attributes:** The shorthand rule for positioning (top, right, bottom, left) is tricky to learn and remember at first. **It can help to think of this like a compass (north, east, south, west).** Order positioning properties in a way to facilitate learning and retaining that convention because it can feel very counter-intuitive at first.
 
 <pre>element {
     margin: <b>2px 4px 6px 8px</b>; // <b>top, right, bottom, left</b>
