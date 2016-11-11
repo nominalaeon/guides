@@ -36,7 +36,7 @@ All of the attributes of an element are more readable if you follow the same pat
             'hidden': !hasValue()                **
         }"                                       **
         ng-click="onClick()"                     **
-        ng-repeat="item in items" >              ** 4. Framework
+        ng-repeat="item in items" >              ** 4. Framework */
 
 > **Line-breaks:** I'm a huge fan of white space. Some people are comfortable jamming everything together, but a simple line-break is an easy way to visually separate concepts.
 
