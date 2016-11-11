@@ -1,4 +1,8 @@
-# ECMAScript 5 Class Pattern
+<img src="../_images/javascript-badge.png" alt="JavaScript badge" title="JavaScript badge" height="260px"/>
+
+# ECMAScript 5 Class pattern
+
+> *Difficulty:* **Super saiyan**
 
 There is something wrong with me. I love writing JavaScript Classes. in ES5.
 
@@ -28,23 +32,27 @@ When written correctly, a Class script is expressivene and readable in a way man
 <a id="markdown-organizing" name="organizing"></a>
 ## Organizing
 
-All of the items inside of a Class are more readable if you follow the same pattern every time. Here's an overview for how I recommend you order these items, and below we'll go over some reasoning for each one.
+All of the items inside a Class are more readable if you follow the same pattern every time. Here's an overview for how I recommend you order these items, and below we'll go over some reasoning for each one.
 
 
 **example-class.js**
 
     (function () {
 
-        'use strict'; // because you're not a monster.
+        'use strict'; /** because you're not a monster. */
 
         function ExampleClass() {
             this.init.apply(this, arguments);
         }
 
-        // Assign methods to the Function object's prototype
+        /**
+         * Assign methods to the Function object's prototype
+         */
         _.extend(ExampleClass.prototype, getMethods());
 
-        // Assign properties to the Function object's prototype
+        /**
+         * Assign properties to the Function object's prototype
+         */
         Object.defineProperties(ExampleClass.prototype, getProperties());
 
         ////
@@ -55,11 +63,15 @@ All of the items inside of a Class are more readable if you follow the same patt
 
         ////
 
-        /** Named functions used for public methods */
+        /**
+         * Named functions used for public methods
+         */
 
         ////
 
-        /** Named functions used for private helpers */
+        /**
+         * Named functions used for private helpers
+         */
 
     })();
 
@@ -76,7 +88,7 @@ All of the items inside of a Class are more readable if you follow the same patt
             this.init.apply(this, arguments);
         }
 
-Starting with the Class's declaration, it invokes an init method we'll define later. It uses `Function.prototype.apply()` to pass along whatever arguments it gets. Handing off the constructor functionality to a separate method allows us to keep this top portion of the script slim and readable.
+In the Class's declaration, an init method that we'll define later is invoked. It uses `Function.prototype.apply()` to pass along whatever arguments it gets. Handing off the constructor functionality to a separate method allows us to keep this top portion of the script slim and readable.
 
         _.extend(ExampleClass.prototype, getMethods());
 
