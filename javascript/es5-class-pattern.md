@@ -1,10 +1,8 @@
-# Project Structure Basic Conventions
+# ECMAScript 5 Class Pattern
 
-There is something wrong with me. I love writing JavaScript Classes. in es5.
+There is something wrong with me. I love writing JavaScript Classes. in ES5.
 
-When written correctly*, a Class script is expressivene and readable in a way many other patterns can't be. A Class's method and property assignments can become a table of contents that abstract away fuller, harder to navigate functionality. Some of these concepts are hard to get at first, but, like an exotic parasite, once they tunnel into your brain they are very difficult to remove.
-
-\* *My version of correctly anyway.*
+When written correctly, a Class script is expressivene and readable in a way many other patterns can't be. A Class's method and property assignments can become a table of contents that abstract away lengthy, hard to navigate functionality. Some of these concepts are hard to get at first, but, like an exotic parasite, once they tunnel into your brain they are impossible to remove.
 
 * * *
 
@@ -19,7 +17,8 @@ When written correctly*, a Class script is expressivene and readable in a way ma
 2. [Naming](#naming)
     6. [Methods](#methods)
     7. [Properties](#properties)
-3. [FAQ You](#faq-you)
+3. [All together now](#all-together-now)
+4. [FAQ You](#faq-you)
     8. ["My linter is throwing up ***error  'myFunc' was used before it was defined***"](#my-linter-is-throwing-up-error-myfunc-was-used-before-it-was-defined)
 
 <!-- /TOC -->
@@ -208,6 +207,7 @@ Not a huge deal, but worth keeping in mind as you create your own habits in the 
 
 Sky's the limit, man. If your property is communicative enough and sticks to JavaScript's lowerFirstThenCamelCase convention, then it's all good.
 
+<a id="markdown-all-together-now" name="all-together-now"></a>
 ## All together now
 
     (function () {
