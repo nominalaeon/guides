@@ -162,7 +162,7 @@ The default value returned is a great opportunity to improve readability by show
             },
             luckyNumber: {
                 get: function () {
-                    return this._vm.luckyNumber || 0;
+                    return this._vm.luckyNumber || _.random(1, 1000);
                 },
                 set: function (luckyNumber) {
                     this._vm.luckyNumber = luckyNumber;
@@ -202,24 +202,28 @@ I like to break up each section with a short string of slashes `////`.
 <a id="markdown-methods" name="methods"></a>
 ### Methods
 
-ES6 has introduced an interesting hiccup in what used to be a no-brainer naming convention. It's a bit tricky to remember (I'm still forgetting to do it) and, while it doesn't break anything, the potential for this misnaming proliferating across your codebase is extremely high. If ECMAScript keeps going in this direction, there's a possibility that misnaming a method in this way will be harmful.
+ES6 has introduced an interesting hiccup in what used to be a no-brainer naming convention. It's a bit tricky to remember (I'm still forgetting to do it) and, while it doesn't break anything, the potential for this naming convention to proliferate across your codebase is extremely high.
 
 **So what's the deal?**
 
 `getSomething()` and `setSomething()`.
 
-I love those method names. Like. A lot. They say everything and I really conditioned myself to know what to expect from either function. `getSomething()` is going to call an API and `setSomething()` is going to assign the results to the appropriate property.
+I love those method names. Like. A lot. I really conditioned myself to know what to expect from either function name. `getSomething()` is going to call an API and `setSomething()` is going to assign the results to the appropriate property.
 
 **So what's the deal?**
 
 In ES6, the getter/setter syntax was shorthanded in a way that makes these method names daaaangerously close to a property name: `get something() { ... }` and `set something() { ... }`.
 
-Not a huge deal, but worth keeping in mind as you create your own habits in the Class pattern.
+Not a huge deal, but worth keeping in mind as you create your own habits in the Class pattern. I've started changing these names to `collectSomething()` and `assignSomething()` respectively.
 
 <a id="markdown-properties" name="properties"></a>
 ### Properties
 
-Sky's the limit, man. If your property is communicative enough and sticks to JavaScript's lowerFirstThenCamelCase convention, then it's all good.
+Proeprty names need to be communicative yet concise. Stick to JavaScript's lowerFirstThenCamelCase convention and you should be good.
+
+There are no hard rules for naming stuff, so there are no wrong answers. Just try to put yourself in the shoes of future devs who will have to read your code without the full context of knowledge you are currently blessed with.
+
+That said, never hold up a pull request for a namespace squabble. If you're willing to hold up code for a subjective naming preference, you are in dire need of some perspective.
 
 <a id="markdown-all-together-now" name="all-together-now"></a>
 ## All together now
@@ -284,7 +288,7 @@ Sky's the limit, man. If your property is communicative enough and sticks to Jav
                 },
                 luckyNumber: {
                     get: function () {
-                        return this._vm.luckyNumber || 0;
+                        return this._vm.luckyNumber || _.random(1, 1000);
                     },
                     set: function (luckyNumber) {
                         this._vm.luckyNumber = luckyNumber;
@@ -345,7 +349,7 @@ This is a part of a larger, longer, more boringer conversation. The short versio
 
 The slighlty longer version is, only do this if you truly understand variable scoping. If you're still new to JavaScript, keep your default linter settings and rearrange the function declarations of this pattern to be at the top. Basically reverse order the entire pattern, it's okay, it's still very useful.
 
-Seriously, if you create and then proliferate a misqueue of variable declarations you are in for a world of debugging hell.
+If you create and then proliferate a misqueue of variable declarations you are in for a world of debugging hell, but it's my opinion that linting for this cures the symptom instead of the horrible life choices that created them.
 
 > &nbsp;
 >
