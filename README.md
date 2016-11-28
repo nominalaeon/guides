@@ -2,6 +2,8 @@
 
 A collection of how-to's and style guides for stuff I'm semi-proficient with.
 
+[Table of Contents](README.md)
+
 * * *
 
 * CSS
