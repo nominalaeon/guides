@@ -185,7 +185,7 @@ The function used to initialize a Class is special. We need to take any args sen
             if (!example.hasOwnProperty(prop)) {
                 continue;
             }
-            this.[prop] = example[prop];
+            this[prop] = example[prop];
         }
     }
 
@@ -314,7 +314,7 @@ That said, never hold up a pull request for a namespace squabble. If you're will
                 if (!example.hasOwnProperty(prop)) {
                     continue;
                 }
-                this.[prop] = example[prop];
+                this[prop] = example[prop];
             }
         }
 
