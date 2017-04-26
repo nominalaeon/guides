@@ -31,7 +31,7 @@
 
 **Ground rule #2:** When I say *Sass*, I'm talking about CSS compilers in general. I'm not going to cover any Sass concept that doesn't exist in Sass, SCSS, Less, Stylus, or whatever. Anything I use Sass syntax to illustrate is a Google search away from becoming the syntax you require.
 
-**Ground rule #3:** If you're *not* writing CSS with a pre-processor, stop all the things and go install one. They fit any project and will make your life the opposite of the living hell it is right now.
+**Ground rule #3:** The modern workflow has virtually erased the lines between CSS and Sass, hence the abundant Sass examples in my "CSS" article. If you're *not* writing CSS with a pre-processor, stop all the things and go install one. They fit any project and will make your life the opposite of the living hell it is right now.
 
 <a id="markdown-organizing" name="organizing"></a>
 <a name="organizing"></a>
