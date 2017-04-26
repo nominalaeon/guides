@@ -18,7 +18,7 @@
 - [Nesting](#nesting)
 - [FAQ You](#faq-you)
     - ["I've got my own system. Hasn't failed me yet."](#ive-got-my-own-system-hasnt-failed-me-yet)
-    - ["Sass in *not* the same as SCSS"](#sass-in-not-the-same-as-scss)
+    - ["Sass is *not* the same as SCSS"](#sass-is-not-the-same-as-scss)
 
 <!-- /MarkdownTOC -->
 
@@ -31,7 +31,7 @@
 
 **Ground rule #2:** When I say *Sass*, I'm talking about CSS compilers in general. I'm not going to cover any Sass concept that doesn't exist in Sass, SCSS, Less, Stylus, or whatever. Anything I use Sass syntax to illustrate is a Google search away from becoming the syntax you require.
 
-**Ground rule #3:** The modern workflow has virtually erased the lines between CSS and Sass, hence the abundant Sass examples in my "CSS" article. If you're *not* writing CSS with a pre-processor, stop all the things and go install one. They fit any project and will make your life the opposite of the living hell it is right now.
+**Ground rule #3:** The modern workflow has virtually erased the line between CSS and Sass, hence the abundant Sass examples in my "CSS" article. If you're *not* writing CSS with a pre-processor, stop all the things and go install one. They fit any project and will make your life the opposite of the living hell it is right now.
 
 <a id="markdown-organizing" name="organizing"></a>
 <a name="organizing"></a>
@@ -295,8 +295,8 @@ I will concede that **there is value in personal and team habits**. If you have 
 <img src="../_images/mad-props-outlier.png" alt="Mad props, outlier." title="Mad props, outlier." width="480px;"/>
 
 <a id="markdown-sass-in-not-the-same-as-scss" name="sass-in-not-the-same-as-scss"></a>
-<a name="sass-in-not-the-same-as-scss"></a>
-### "Sass in *not* the same as SCSS"
+<a name="sass-is-not-the-same-as-scss"></a>
+### "Sass is *not* the same as SCSS"
 
 If you want to quibble over the whole *saying "Sass" is the same as saying "SCSS"* thing, prove your point by installing a Sass pre-processor and use `.sass` files.
 
