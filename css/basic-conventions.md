@@ -2,37 +2,39 @@
 
 # CSS Basic Conventions
 
+<!-- MarkdownTOC -->
+
+- [Ground rules](#ground-rules)
+- [Organizing](#organizing)
+    - [Compiler methods](#compiler-methods)
+        - [@extend](#extend)
+        - [@include](#include)
+    - [Attributes](#attributes)
+    - [Pseudo-classes](#pseudo-classes)
+    - [Pseudo-elements](#pseudo-elements)
+    - [Elements & Classes](#elements--classes)
+    - [ID's](#ids)
+- [Naming](#naming)
+- [Nesting](#nesting)
+- [FAQ You](#faq-you)
+    - ["I've got my own system. Hasn't failed me yet."](#ive-got-my-own-system-hasnt-failed-me-yet)
+    - ["Sass in *not* the same as SCSS"](#sass-in-not-the-same-as-scss)
+
+<!-- /MarkdownTOC -->
+
+* * *
+
+<a name="ground-rules"></a>
+## Ground rules
+
 **Ground rule #1:** When I say *Sass*, I'm talking about *Sassy CSS (SCSS)*. Sass***&trade;*** was the CSS compiler for last-gen CSS. SCSS, however, is CSS3-friendly and needed to be differentiated during the dark times before IE had caught up with the rest of the world. Those times are basically over, saying "Sass" is the same as saying "SCSS".
 
 **Ground rule #2:** When I say *Sass*, I'm talking about CSS compilers in general. I'm not going to cover any Sass concept that doesn't exist in Sass, SCSS, Less, Stylus, or whatever. Anything I use Sass syntax to illustrate is a Google search away from becoming the syntax you require.
 
-If you're *not* writing CSS with a pre-processor, stop all the things and go install one. They fit any project and will make your life the opposite of the living hell it is right now.
-
-* * *
-
-<!-- TOC -->
-
-1. [Organizing](#organizing)
-    1. [Compiler methods](#compiler-methods)
-        1. [@extend](#extend)
-        2. [@include](#include)
-    2. [Attributes](#attributes)
-    3. [Pseudo-classes](#pseudo-classes)
-    4. [Pseudo-elements](#pseudo-elements)
-    5. [Elements & Classes](#elements-classes)
-    6. [ID's](#ids)
-2. [Naming](#naming)
-3. [Nesting](#nesting)
-4. [FAQ You](#faq-you)
-    7. ["I've got my own system. Hasn't failed me yet."](#ive-got-my-own-system-hasnt-failed-me-yet)
-    8. ["Sass in *not* the same as SCSS"](#sass-in-not-the-same-as-scss)
-
-<!-- /TOC -->
-
-* * *
-
+**Ground rule #3:** If you're *not* writing CSS with a pre-processor, stop all the things and go install one. They fit any project and will make your life the opposite of the living hell it is right now.
 
 <a id="markdown-organizing" name="organizing"></a>
+<a name="organizing"></a>
 ## Organizing
 
 All of the items nested inside of an element are more readable if you follow the same pattern every time. Here's an overview for how I recommend you order these items, and below we'll go over some reasoning for each one.
@@ -60,12 +62,12 @@ All of the items nested inside of an element are more readable if you follow the
 
 > **Line-breaks:** I'm a huge fan of white space. Some people are comfortable jamming everything together, but a simple double line-break is an easy way to visually separate concepts.
 
-
 <a id="markdown-compiler-methods" name="compiler-methods"></a>
+<a name="compiler-methods"></a>
 ### Compiler methods
 
-
 <a id="markdown-extend" name="extend"></a>
+<a name="extend"></a>
 #### @extend
 
 This is Sass's way of saying, "Copy all the attributes of this selector and paste it right here." It's like a mixin without any control over the outcome or a variable that gives you lots of CSS all at once. Most importantly, **@extend** is perfectly communicative. Here's a quick example:
@@ -89,8 +91,8 @@ This is Sass's way of saying, "Copy all the attributes of this selector and past
 
 Keep **@extend** declarations at the very top so their specificity can be overpowered with attributes defined afterward.
 
-
 <a id="markdown-include" name="include"></a>
+<a name="include"></a>
 #### @include
 
 This is how we invoke a mixin. They often take arguments, but they can just as easily be used as factories to pump out blobs of attributes. Ideally they are used with arguments to return unique results for each caller's needs. If you're needing a way to hand over just a bunch of static attributes, I would argue that **@extend** is the more expressive way to do so.
@@ -116,8 +118,8 @@ This is how we invoke a mixin. They often take arguments, but they can just as e
 
 Keep **@include** declarations second so they can overwrite any **@extend** declarations but still be in a position where their specificity can be overpowered.
 
-
 <a id="markdown-attributes" name="attributes"></a>
+<a name="attributes"></a>
 ### Attributes
 
 **Alphabetize your attributes.** Every modern text editor has extensions or plug-ins or even built in functionality to help if you're not already in the habit of alphabetizing.
@@ -161,24 +163,24 @@ You'll have noticed there are a couple exceptions to alphabetic ordering:
         max-height: 200px;
     }
 
-
 <a id="markdown-pseudo-classes" name="pseudo-classes"></a>
+<a name="pseudo-classes"></a>
 ### Pseudo-classes
 
 Pseudo-classes are selectors for an element's state. As long as you're defining your pseudo-classes *after* the extends, includes, and attributes, you're golden. The order of these are not concrete, sometimes you'll need a **:hover** to be stronger than a **:focus** and vice versa, so it's really case by case. There aren't an overwhelming amount of pseudo-classes available so **alphabetize when possible, otherwise order as needed to achieve the desired specificity**.
 
 See the full, official, curated-by-someone-else list of pseudo-classes at [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-classes).
 
-
 <a id="markdown-pseudo-elements" name="pseudo-elements"></a>
+<a name="pseudo-elements"></a>
 ### Pseudo-elements
 
 You'll often be working with a max of two of these, **::before** and **::after**. I prefer to put ::before ahead of ::after but you'd have a hard time mucking up readability between these two. Keep their declarations after the pseudo-classes and that's good enough.
 
 See the full, official, curated-by-someone-else list of pseudo-elements at [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-elements).
 
-
 <a id="markdown-elements-classes" name="elements-classes"></a>
+<a name="elements--classes"></a>
 ### Elements & Classes
 
 **Alphabetize your selectors.** This one is tougher to swallow, but the best stuff often is. It's always tempting to group selectors together, letting their hierarchy be a self-serving table of contents. And aye, that will work. For a time. But, lying in your beds, years from now, would you not trade all of your days from then to now for one chance, just one chance, to enforce an alphabetized list of elements and class names ***before* they became too many to manage!**
@@ -188,12 +190,13 @@ See the full, official, curated-by-someone-else list of pseudo-elements at [Mozi
 > <small>Please note, this convention is not at all meant to replace splitting CSS into [single-responsibility files and directories](../project-structure/basic-conventions.md#scss). If you disagree with this approach, please refer to [the FAQ](#faq-you).
 
 <a id="markdown-ids" name="ids"></a>
+<a name="ids"></a>
 ### ID's
 
 You might have noticed that I forgot to mention ID selectors. If no one has ever sat you down and given you *the talk*, allow me the honor. ID's are for **form element** identification. For everything else, there's class names. Selecting DOM elements for manipulation with CSS (or JavaScript, I would half-heartedly argue and concede as soon as I faced any opposition) is a pretty good indication that you need to revisit your [naming conventions](#naming).
 
-
 <a id="markdown-naming" name="naming"></a>
+<a name="naming"></a>
 ## Naming
 
 **Use [BEM](https://css-tricks.com/bem-101/) naming conventions**
@@ -232,8 +235,8 @@ Now we have `.pig__leg--left` handling the unique positioning of the pig's left 
 
 There are other, equally respected and established conventions, and, while my preference is BEM, a project benefits from having any of them in place. A project that's dedicated to a naming-convention framework reduces conflict and improves consistency.
 
-
 <a id="markdown-nesting" name="nesting"></a>
+<a name="nesting"></a>
 ## Nesting
 
 **Only nest when necessary**
@@ -275,24 +278,24 @@ Like anything else, BEM's meant to be used in moderation. Even with the `.saddle
 
 Protip: Don't put your saddle on a dirty pig.
 
-
 <a id="markdown-faq-you" name="faq-you"></a>
+<a name="faq-you"></a>
 ## FAQ You
 
-
 <a id="markdown-ive-got-my-own-system-hasnt-failed-me-yet" name="ive-got-my-own-system-hasnt-failed-me-yet"></a>
+<a name="ive-got-my-own-system-hasnt-failed-me-yet"></a>
 ### "I've got my own system. Hasn't failed me yet."
 
 <img src="../_images/my-own-system.jpg" alt="I've got my own system" title="I've got my own system" width="480px"/>
 
-There's an outside chance that you're on of the dozens of developers that have never alphabetized their attributes and right now you're thinking "Not broke? Don't fix." There are a couple explanations for this response. 1) Your attribute blocks are still small enough that readability isn't effected or 2) you're totally in tune with the piles of clutter you've created for yourself. Both explanations are arguments against themselves. They are short-sighted and would be hard to say out-loud to your boss, but I totally dare you to anyway.
+There's an outside chance that you're one of the dozens of developers that have never alphabetized their attributes and right now you're thinking "Not broke? Don't fix." There are a couple explanations for this response. 1) Your attribute blocks are still small enough that readability isn't effected or 2) you're totally in tune with the piles of clutter you've created for yourself. Both explanations are arguments against themselves. They are short-sighted and would be hard to say out-loud to your boss, but I totally dare you to anyway.
 
 I will concede that **there is value in personal and team habits**. If you have your own system and it truly hasn't failed you yet, kudes to you. I recommend you reconsider the code's readability; make sure your way is lowering your bus factor and creating an easy on-boarding process for new devs. If it is, then great. Mad props, outlier.
 
 <img src="../_images/mad-props-outlier.png" alt="Mad props, outlier." title="Mad props, outlier." width="480px;"/>
 
-
 <a id="markdown-sass-in-not-the-same-as-scss" name="sass-in-not-the-same-as-scss"></a>
+<a name="sass-in-not-the-same-as-scss"></a>
 ### "Sass in *not* the same as SCSS"
 
 If you want to quibble over the whole *saying "Sass" is the same as saying "SCSS"* thing, prove your point by installing a Sass pre-processor and use `.sass` files.
