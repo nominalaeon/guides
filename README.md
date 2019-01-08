@@ -15,6 +15,7 @@ A miscellania of how-to's, references, and style guides for stuff I'm into.
 * JavaScript
     * [ECMAScript 5 Class pattern](javascript/es5-class-pattern.md)
     * [ECMAScript 6 Class](javascript/es6-class.md)
+    * [Single Responsibility](javascript/single-responsibility.md)
     * [var & let & const](javascript/var-let-const.md)
 * Project Structure
     * [Basic Conventions](project-structure/basic-conventions.md)
