@@ -5,9 +5,9 @@
 
 Have you ever battled a pesky font that wouldn't render the same way across operating systems no matter what CSS value you put for its line-height? If you answered yes to any of the previous question, then this is the mind-numbing article for you!
 
-We recently had such battle on the Electrolux project, and, buried under a thick level of boring, we found a solution that's actually pretty interesting.
+Getting to the root of a font issue can be tedious, but, buried under a thick level of boring, there is a solution that's actually pretty interesting.
 
-It all started with this new font, Custom Fresh...
+It all starts with a font called Custom Fresh...
 
 * * *
 
@@ -57,8 +57,8 @@ The values for these properties were set as
 
 Here's a visual comparison of those metrics with shades of blue representing each property:
 
-|                                                                                               OSX |                                                                                         Windows |
-|--------------------------------------------------------------------------------------------------:|------------------------------------------------------------------------------------------------:|
+| OSX | Windows |
+|:--|--:|
 | <img src="../_images/font-metrics/mac-original-svg.png" /> | <img src="../_images/font-metrics/pc-original-svg.png"/> |
 
 <a name="recalculated-metadata"></a>
@@ -68,25 +68,25 @@ The method for aligning these metrics to yield a more consistent view is to spli
 
 Recalculating these values to be optimized for web viewing, they become:
 
-|             |  OSX | Windows |
-|:------------|-----:|--------:|
+| | OSX | Windows |
+|:--|--:|--:|
 | *Ascender*  | 1002 |     975 |
 | *Descender* | -371 |    -225 |
 | *Line Gap*  |   24 |     n/a |
 
-|                                                                                               OSX |                                                                                          Windows |
-|--------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------:|
+| OSX | Windows |
+|:--|--:|
 | <img src="../_images/font-metrics/mac-converted-svg.png"/> | <img src="../_images/font-metrics/pc-converted-svg.png"/> |
 
 <a name="demo"></a>
 ## Demo
 
-[Here's a live example of both font versions.](http://rodenbeek.com/custom-fresh-test)
+[Here's a live example of both font versions.](https://rodenbeek.com/custom-fresh-test)
 
 This demo shows that with an optimized version of Custom Fresh, the vertical-height calculated by each operating system winds up being the same. Here are in-browser screenshots from both environments:
 
-|             |                                                                                           OSX |                                                                                      Windows |
-|:------------|----------------------------------------------------------------------------------------------:|---------------------------------------------------------------------------------------------:|
+| | OSX | Windows |
+|:--|--:|--:|
 | *Original*  |  <img src="../_images/font-metrics/mac-original.png"/> |  <img src="../_images/font-metrics/pc-original.png"/> |
 | *Converted* | <img src="../_images/font-metrics/mac-converted.png"/> | <img src="../_images/font-metrics/pc-converted.png"/> |
 
@@ -95,7 +95,7 @@ The original Custom Fresh renders in offset positions between OSX and Windows, b
 <a name="updating-a-font"></a>
 ## Updating a font
 
-Having a web-optimized version of Custom Fresh allowed us to use plain text in HTML instead of relying on images to show a consistent view across operating systems. Plain text HTML facilitates
+Having a web-optimized version of any font allows the use of plain text in HTML instead of relying on images to show a consistent view across operating systems. Plain text HTML facilitates
 
 * **Search Engine Optimization** and screen-reader **Accessibility**
 * Faster page load
@@ -104,9 +104,9 @@ Having a web-optimized version of Custom Fresh allowed us to use plain text in H
 
 Creating a full-fledged version of the recalculated Custom Fresh required [Fontlab Studio](https://www.fontlab.com/font-editor/fontlab-studio/) and some time allowed for testing. I recommend giving your font two or three days of sprint time for a safe conversion.
 
-The copyright metadata on fonts is thorough, and most creators will have preferences for how it gets modified. I suggest we don't change anything about a font without consulting its creator or distributor first.
+The copyright metadata on fonts can be thorough, and most creators will have preferences for how they gets modified. Don't change anything about a font without consulting its creator or distributor first.
 
 <a name="fixing-it-old-school"></a>
 ## Fixing it old school
 
-The further we move from older media, the looser we've become with cross operating system awareness. Most new fonts have this exact same problem, but at smaller font sizes, the discrepencies are harder to identify. If you're experiencing a similar issue, we now have licensed software to help fix it.
+The further we move from older media, the looser we've become with cross operating system awareness. Most new fonts have this exact same problem, but at smaller font sizes, the discrepencies are harder to identify. If you're experiencing a similar issue, there is licensed software to help fix it.
