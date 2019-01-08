@@ -1,6 +1,6 @@
 # Guides
 
-A collection of how-to's and style guides for stuff I'm semi-proficient with.
+A miscellania of how-to's, references, and style guides for stuff I'm into.
 
 [Table of Contents](README.md)
 
@@ -8,10 +8,14 @@ A collection of how-to's and style guides for stuff I'm semi-proficient with.
 
 * CSS
     * [Basic Conventions](css/basic-conventions.md)
+* Fonts
+    * [Font Metrics](fonts/font-metrics.md)
 * HTML
     * [Basic Conventions](html/basic-conventions.md)
 * JavaScript
     * [ECMAScript 5 Class pattern](javascript/es5-class-pattern.md)
+    * [ECMAScript 6 Class](javascript/es6-class.md)
+    * [var & let & const](javascript/var-let-const.md)
 * Project Structure
     * [Basic Conventions](project-structure/basic-conventions.md)
 * Grunt
