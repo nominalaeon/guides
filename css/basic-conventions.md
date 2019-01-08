@@ -1,4 +1,4 @@
-<img src="../_images/css-badge.png" alt="CSS badge" title="CSS badge" height="260px"/>
+<img src="../_images/css/cover.png" alt="CSS badge" title="CSS badge" height="260px"/>
 
 # CSS Basic Conventions
 
