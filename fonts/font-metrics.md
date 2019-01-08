@@ -11,18 +11,13 @@ It all starts with a font called Custom Fresh...
 
 * * *
 
-<!-- MarkdownTOC -->
-
-- [Font Metrics](#font-metrics)
-  - [Custom Fresh<sup><small>™</small></sup>](#custom-freshsupsmall%E2%84%A2smallsup)
-  - [Varying vertical-heights](#varying-vertical-heights)
-    - [Current metadata](#current-metadata)
-    - [Recalculated metadata](#recalculated-metadata)
-  - [Demo](#demo)
-  - [Updating a font](#updating-a-font)
-  - [Fixing it old school](#fixing-it-old-school)
-
-<!-- /MarkdownTOC -->
+- [Custom Fresh<sup><small>™</small></sup>](#custom-freshsupsmall%E2%84%A2smallsup)
+- [Varying vertical-heights](#varying-vertical-heights)
+  - [Current metadata](#current-metadata)
+  - [Recalculated metadata](#recalculated-metadata)
+- [Demo](#demo)
+- [Updating a font](#updating-a-font)
+- [Fixing it old school](#fixing-it-old-school)
 
 * * *
 

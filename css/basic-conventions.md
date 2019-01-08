@@ -2,25 +2,21 @@
 
 # CSS Basic Conventions
 
-<!-- MarkdownTOC -->
-
 - [Ground rules](#ground-rules)
 - [Organizing](#organizing)
-    - [Compiler methods](#compiler-methods)
-        - [@extend](#extend)
-        - [@include](#include)
-    - [Attributes](#attributes)
-    - [Pseudo-classes](#pseudo-classes)
-    - [Pseudo-elements](#pseudo-elements)
-    - [Elements & Classes](#elements--classes)
-    - [ID's](#ids)
+  - [Compiler methods](#compiler-methods)
+    - [@extend](#extend)
+    - [@include](#include)
+  - [Attributes](#attributes)
+  - [Pseudo-classes](#pseudo-classes)
+  - [Pseudo-elements](#pseudo-elements)
+  - [Elements & Classes](#elements--classes)
+  - [ID's](#ids)
 - [Naming](#naming)
 - [Nesting](#nesting)
 - [FAQ You](#faq-you)
-    - ["I've got my own system. Hasn't failed me yet."](#ive-got-my-own-system-hasnt-failed-me-yet)
-    - ["Sass is *not* the same as SCSS"](#sass-is-not-the-same-as-scss)
-
-<!-- /MarkdownTOC -->
+  - ["I've got my own system. Hasn't failed me yet."](#%22ive-got-my-own-system-hasnt-failed-me-yet%22)
+  - ["Sass is *not* the same as SCSS"](#%22sass-is-not-the-same-as-scss%22)
 
 * * *
 

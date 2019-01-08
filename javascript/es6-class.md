@@ -4,11 +4,7 @@
 
 * * *
 
-<!-- TOC -->
-
-1. [Organizing](#organizing)
-
-<!-- /TOC -->
+- [Organizing](#organizing)
 
 * * *
 

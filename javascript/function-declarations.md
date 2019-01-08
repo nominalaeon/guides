@@ -16,11 +16,7 @@ While I'll be obviously taking a side for this conversation, I'd like to begin b
 
 * * *
 
-<!-- TOC -->
 
-1. [](#)
-
-<!-- /TOC -->
 
 * * *
 

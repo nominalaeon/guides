@@ -7,23 +7,18 @@ If Rick and Morty has taught me anything, it's how to write code. Just kidding, 
 
 * * **
 
-<!-- MarkdownTOC -->
-
-- [What Mr. Meeseeks can teach us about Single Responsibility](#what-mr-meeseeks-can-teach-us-about-single-responsibility)
-  - [What the hockey sticks is a Mr. Meeseeks](#what-the-hockey-sticks-is-a-mr-meeseeks)
-  - [The Single Responsibility Principle](#the-single-responsibility-principle)
-  - [Red Flags of Not-single Responsibility Code](#red-flags-of-not-single-responsibility-code)
-    - [Arrow code](#arrow-code)
-    - [Comments](#comments)
-    - [Duplicate code](#duplicate-code)
-    - [Large files](#large-files)
-  - [Solutions](#solutions)
-    - [Named functions (adding Meeseeks)](#named-functions-adding-meeseeks)
-    - [Generic functions (reusing Meeseeks)](#generic-functions-reusing-meeseeks)
-    - [Guard clauses (killing Meeseeks)](#guard-clauses-killing-meeseeks)
-  - [Post-mortem](#post-mortem)
-
-<!-- /MarkdownTOC -->
+- [What the hockey sticks is a Mr. Meeseeks](#what-the-hockey-sticks-is-a-mr-meeseeks)
+- [The Single Responsibility Principle](#the-single-responsibility-principle)
+- [Red Flags of Not-single Responsibility Code](#red-flags-of-not-single-responsibility-code)
+  - [Arrow code](#arrow-code)
+  - [Comments](#comments)
+  - [Duplicate code](#duplicate-code)
+  - [Large files](#large-files)
+- [Solutions](#solutions)
+  - [Named functions (adding Meeseeks)](#named-functions-adding-meeseeks)
+  - [Generic functions (reusing Meeseeks)](#generic-functions-reusing-meeseeks)
+  - [Guard clauses (killing Meeseeks)](#guard-clauses-killing-meeseeks)
+- [Post-mortem](#post-mortem)
 
 * * **
 

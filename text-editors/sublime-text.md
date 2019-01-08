@@ -3,25 +3,22 @@
 
 # Sublime Text: A quick-start overview for beginners
 
-<!-- MarkdownTOC -->
-
-- [Sublime Text: A quick-start overview for beginners](#sublime-text-a-quick-start-overview-for-beginners)
-  - [Overview](#overview)
-  - [Packages](#packages)
-    - [Basic Packages](#basic-packages)
-    - [Themes and Color Schemes](#themes-and-color-schemes)
-    - [Advanced Packages](#advanced-packages)
-  - [Epilogue](#epilogue)
-
-<!-- /MarkdownTOC -->
-
-* * *
-
 Like other developer tools, choosing a text editor can feel tricky and it’s going to take some experimenting to find the one that’s right for you. Ultimately though, no matter your choice, most perform the same basic tasks needed to develop in any language.
 
 The two biggest factors at play in choosing a text editor should be personal comfort followed closely by team preference. There is some wiggle room, for instance Atom, WebStorm, and Sublime are going to offer very similar user experiences, but you wouldn’t want to be the only person on a team rocking Notepad. Huge differences in personal tools are just unnecessary white noise during paired or shared programming.
 
 I'm giving an overview of [Sublime Text](https://www.sublimetext.com/3) because it’s my favorite, but I strongly recommend trying a few editors to find one that’s a good fit for you. This article can also serve as a quick-start guide for those times when you need to setup an environment and need a list of packages to start with.
+
+* * *
+
+- [Overview](#overview)
+- [Packages](#packages)
+  - [Basic Packages](#basic-packages)
+  - [Themes and Color Schemes](#themes-and-color-schemes)
+  - [Advanced Packages](#advanced-packages)
+- [Epilogue](#epilogue)
+
+* * *
 
 <a name="overview"></a>
 ## Overview

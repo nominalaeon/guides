@@ -9,18 +9,13 @@ Let's talk about `var`, the issues `let` and `const` came to solve, and maybe ge
 
 * * *
 
-<!-- MarkdownTOC -->
-
-- [var & let & const](#var--let--const)
-  - [The problem with "var"](#the-problem-with-%22var%22)
-  - ["let" examples](#%22let%22-examples)
-    - [The "for" loop](#the-%22for%22-loop)
-    - [The "if" block](#the-%22if%22-block)
-    - [The late-comer example](#the-late-comer-example)
-  - ["const" examples](#%22const%22-examples)
-  - [Hoisting](#hoisting)
-
-<!-- /MarkdownTOC -->
+- [The problem with "var"](#the-problem-with-%22var%22)
+- ["let" examples](#%22let%22-examples)
+  - [The "for" loop](#the-%22for%22-loop)
+  - [The "if" block](#the-%22if%22-block)
+  - [The late-comer example](#the-late-comer-example)
+- ["const" examples](#%22const%22-examples)
+- [Hoisting](#hoisting)
 
 * * *
 

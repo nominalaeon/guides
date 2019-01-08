@@ -2,30 +2,24 @@
 
 # ECMAScript 5 Class pattern
 
-> *Difficulty:* **Super saiyan**
+There is something wrong with me. I love writing JavaScript Classes. In ES5.
 
-There is something wrong with me. I love writing JavaScript Classes. in ES5.
-
-When written correctly, a Class script is expressivene and readable in a way many other patterns can't be. A Class's method and property assignments can become a table of contents that abstract away lengthy, hard to navigate functionality. Some of these concepts are hard to get at first, but, like an exotic parasite, once they tunnel into your brain they are impossible to remove.
+When written correctly, a Class script is expressive and readable in a way many other patterns can't be. A Class's method and property assignments can become a table of contents that abstract away lengthy, hard to navigate functionality. Some of these concepts are hard to get at first, but, like an exotic parasite, once they tunnel into your brain they are impossible to remove.
 
 * * *
 
-<!-- TOC -->
-
-1. [Organizing](#organizing)
-    1. [Declaration](#declaration)
-    2. [Methods](#methods)
-    3. [Properties](#properties)
-    4. [Named functions: Public](#named-functions-public)
-    5. [Named functions: Private](#named-functions-private)
-2. [Naming](#naming)
-    6. [Methods](#methods)
-    7. [Properties](#properties)
-3. [All together now](#all-together-now)
-4. [FAQ You](#faq-you)
-    8. ["My linter is throwing up ***error  'myFunc' was used before it was defined***"](#my-linter-is-throwing-up-error-myfunc-was-used-before-it-was-defined)
-
-<!-- /TOC -->
+- [Organizing](#organizing)
+  - [Declaration](#declaration)
+  - [Methods](#methods)
+  - [Properties](#properties)
+  - [Named functions: Public](#named-functions-public)
+  - [Named functions: Private](#named-functions-private)
+- [Naming](#naming)
+  - [Methods](#methods-1)
+  - [Properties](#properties-1)
+- [All together now](#all-together-now)
+- [FAQ You](#faq-you)
+  - ["My linter is throwing up ***error 'myFunc' was used before it was defined***"](#%22my-linter-is-throwing-up-error-myfunc-was-used-before-it-was-defined%22)
 
 * * *
 

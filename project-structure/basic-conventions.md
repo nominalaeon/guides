@@ -4,18 +4,14 @@ Project structure is subjective. Aside from personal preference, the choices mad
 
 * * *
 
-<!-- TOC -->
-
-1. [Separation of concerns](#separation-of-concerns)
-    1. [SRC](#src)
-    2. [APP](#app)
-2. [Components](#components)
-    3. [Scripts](#scripts)
-    4. [SCSS](#scss)
-3. [Templates](#templates)
-4. [Committing "app" content](#committing-app-content)
-
-<!-- /TOC -->
+- [Separation of concerns](#separation-of-concerns)
+  - [SRC](#src)
+  - [APP](#app)
+- [Components](#components)
+  - [Scripts](#scripts)
+  - [SCSS](#scss)
+- [Templates](#templates)
+- [Committing "app" content](#committing-%22app%22-content)
 
 * * *
 

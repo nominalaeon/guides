@@ -6,24 +6,24 @@ Grunt uses pre-made and custom package tasks to define a firing order of actions
 
 * * *
 
-<!-- TOC -->
-
-1. [System setup](#system-setup)
-    1. [Installing NodeJS/npm](#installing-nodejsnpm)
-    2. [Installing packages](#installing-packages)
-2. [Project setup](#project-setup)
-    3. [Make a project directory](#make-a-project-directory)
-    4. [npm init](#npm-init)
-    5. [Project folders](#project-folders)
-3. [Grunt setup](#grunt-setup)
-    6. [Installing](#installing)
-    7. [Scaffolding](#scaffolding)
-    8. [Configuring](#configuring)
-        1. [Install some Grunt packages](#install-some-grunt-packages)
-    9. [Registering main tasks](#registering-main-tasks)
-4. [Running Grunt](#running-grunt)
-
-<!-- /TOC -->
+- [System setup](#system-setup)
+  - [Installing NodeJS/npm](#installing-nodejsnpm)
+  - [Installing packages](#installing-packages)
+- [Project setup](#project-setup)
+  - [Make a project directory](#make-a-project-directory)
+  - [npm init](#npm-init)
+  - [Project folders](#project-folders)
+- [Grunt setup](#grunt-setup)
+  - [Installing](#installing)
+  - [Scaffolding](#scaffolding)
+  - [Configuring](#configuring)
+    - [Install some Grunt packages](#install-some-grunt-packages)
+      - [Copy images](#copy-images)
+      - [Concatenate JavaScript](#concatenate-javascript)
+      - [Compile SCSS](#compile-scss)
+      - [Watch our stuff for us](#watch-our-stuff-for-us)
+  - [Registering main tasks](#registering-main-tasks)
+- [Running Grunt](#running-grunt)
 
 * * *
 
