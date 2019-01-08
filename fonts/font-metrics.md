@@ -1,5 +1,5 @@
 
-<img src="../_images/font-metrics/fontlab.png" alt="var vs. let vs. const" title="var vs. let vs. const" height="260px"/>
+<img src="../_images/font-metrics/fontlab.png" alt="font metrics" title="Font Metrics" height="260px"/>
 
 # Font Metrics
 
