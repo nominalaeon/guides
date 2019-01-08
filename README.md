@@ -19,7 +19,9 @@ A miscellania of how-to's, references, and style guides for stuff I'm into.
     * [var & let & const](javascript/var-let-const.md)
 * Project Structure
     * [Basic Conventions](project-structure/basic-conventions.md)
-* Grunt
-    * [Getting Started](grunt/getting-started.md)
+* Task Runners
+    * [Grunt: Getting Started](task-runners/grunt.md)
+* Text Editors
+    * [Sublime Text: Getting Started](text-editors/sublime-text.md)
 
 * * *
