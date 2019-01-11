@@ -1,7 +1,7 @@
 
 <img src="../_images/single-responsibility/cover.png" alt="single responsibility" title="Single Responsibility" height="260px"/>
 
-# What Mr. Meeseeks can teach us about Single Responsibility
+# What Mr. Meeseeks Can Teach Us About Single Responsibility
 
 If Rick and Morty has taught me anything, it's how to write code. Just kidding, Rick and Morty has taught me everything. For now though, let's focus on one of the show's characters and how his brief existence is the perfect analogy for the **Single Responsibility Principle**.
 
