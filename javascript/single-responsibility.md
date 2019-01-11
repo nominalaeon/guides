@@ -3,12 +3,12 @@
 
 # What Mr. Meeseeks can teach us about Single Responsibility
 
-If Rick and Morty has taught me anything, it's how to write code. Just kidding, Rick and Morty has taught me everything. For now though, let's focus on one of the show's characters and how his brief existence is the perfect analogy the **Single Responsibility Principle**.
+If Rick and Morty has taught me anything, it's how to write code. Just kidding, Rick and Morty has taught me everything. For now though, let's focus on one of the show's characters and how his brief existence is the perfect analogy for the **Single Responsibility Principle**.
 
 * * **
 
 - [What the hockey sticks is a Mr. Meeseeks](#what-the-hockey-sticks-is-a-mr-meeseeks)
-- [The Single Responsibility Principle](#the-single-responsibility-principle)
+- [WTF is the Single Responsibility Principle](#wtf-is-the-single-responsibility-principle)
 - [Red Flags of Not-single Responsibility Code](#red-flags-of-not-single-responsibility-code)
   - [Arrow code](#arrow-code)
   - [Comments](#comments)
@@ -32,7 +32,7 @@ If Rick and Morty has taught me anything, it's how to write code. Just kidding, 
 > "Existence is pain to a Meeseeks, Jerry, and we will do anything to alleviate that pain!"
 
 <a name="a-purpose-for-existing"></a>
-## The Single Responsibility Principle
+## WTF is the Single Responsibility Principle
 
 The **Single Responsibility Principle** is a way to enforce smaller, more focused sections in your code. Think of each function as a Meeseeks. Each of these separate concerns has one purpose, and it wants to take the fastest path to fulfill it so it can disappear.
 
@@ -42,7 +42,9 @@ In the Rick and Morty episode "Meeseeks and Destroy", there are two Meeseeks exa
 > Beth: I want to be a more complete woman!
 > 
 > Jerry: You guys are doing it wrong. He said "simple."
+> 
 > *Jerry spawns a Meeseeks*
+> 
 > Jerry: I would like to take two strokes off my golf game.
 
 It turns out becoming a complete woman only requires a sincere pep talk. Conversely, taking two strokes off a golf game turns into a slog of conditional, synchronous methods that get muddled up when contained in just one Meeseeks.
