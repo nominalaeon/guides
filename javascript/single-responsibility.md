@@ -41,7 +41,7 @@ In the Rick and Morty episode "Meeseeks and Destroy", there are two Meeseeks exa
 > *Beth spawns a Meeseeks*
 > Beth: I want to be a more complete woman!
 > 
-> Jerry: You guys are doing it wrong. He said "simple."
+> Jerry: You guys are doing it wrong. He said "*simple*".
 > 
 > *Jerry spawns a Meeseeks*
 > 
