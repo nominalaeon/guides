@@ -1,5 +1,5 @@
 
-<img src="../_images/single-responsibility/cover.png" alt="single responsibility" title="Single Responsibility" style="max-height: 260px;"/>
+<img src="../_images/single-responsibility/cover.png" alt="single responsibility" title="Single Responsibility" height="260px"/>
 
 # What Mr. Meeseeks Can Teach Us About Single Responsibility
 
@@ -28,7 +28,7 @@ If Rick and Morty has taught me anything, it's how to write code. Just kidding, 
 
 [Mr. Meeseeks](https://www.youtube.com/watch?v=KtNRU73CFzg) is an apparition, summoned from a thin air with the push of a button, who exists for as long as it takes him to fulfill a given request. The main goal of a Meeseeks is to complete his task as quickly as possible so he can go back to not existing.
 
-<img src="../_images/single-responsibility/existence-pain.jpg" style="max-height: 260px;" />
+<img src="../_images/single-responsibility/existence-pain.jpg" height="260px" />
 
 > "Existence is pain to a Meeseeks, Jerry, and we will do anything to alleviate that pain!"
 
@@ -129,7 +129,7 @@ As previously stated, the ideal topography for a block of code is level. We want
 <a name="named-functions-adding-meeseeks"></a>
 ### Named functions (adding Meeseeks)
 
-<img src="../_images/single-responsibility/meeseeks-box.png" style="max-height: 260px;" />
+<img src="../_images/single-responsibility/meeseeks-box.png" height="260px" />
 
 Anonymous functions are be the easiest piece of code to clean up, and, in my opinion, the most satisfying. I recommend placing a named function below and hoisting the call up to the more primary code where it's used. Your stack traces will be much easier to read when you're debugging, just to name one of many benefits.
 
@@ -242,10 +242,10 @@ Thanks for reading!
 
 ## Addendum
 
-<img src="../_images/single-responsibility/how-could-you.png" style="max-height: 260px;" />
+<img src="../_images/single-responsibility/how-could-you.png" height="260px" />
 
 **"that `assignStatus` function with the field names being passed in as strings just.....ugh"**
 
 The code here is meant to mime scenarios from a really weird cartoon. It is garbage parading as pseudo code. Please don't use this to illustrate some point about the state of front-end these days, and definitely don't ever copy/pasta any part of any of this into your own programs.
 
-<img src="../_images/single-responsibility/gotta-relax.png" style="max-height: 260px;" />
+<img src="../_images/single-responsibility/gotta-relax.png" height="260px" />

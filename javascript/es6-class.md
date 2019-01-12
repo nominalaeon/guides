@@ -1,4 +1,4 @@
-<img src="../_images/javascript-badge.png" alt="JavaScript badge" title="JavaScript badge" style="max-height: 260px;"/>
+<img src="../_images/javascript-badge.png" alt="JavaScript badge" title="JavaScript badge" height="260px"/>
 
 # ECMAScript 6 Class
 

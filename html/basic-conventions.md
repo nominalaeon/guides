@@ -1,4 +1,4 @@
-<img src="../_images/html-badge.png" alt="HTML badge" title="HTML badge" style="max-height: 260px;"/>
+<img src="../_images/html-badge.png" alt="HTML badge" title="HTML badge" height="260px"/>
 
 # HTML Basic Conventions
 

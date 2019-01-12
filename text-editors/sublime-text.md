@@ -1,5 +1,5 @@
 
-<img src="../_images/sublime-text/cover.png" alt="sublime text" title="Sublime Text" style="max-height: 260px;"/>
+<img src="../_images/sublime-text/cover.png" alt="sublime text" title="Sublime Text" height="260px"/>
 
 # Sublime Text: A quick-start overview for beginners
 

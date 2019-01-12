@@ -1,5 +1,5 @@
 
-<img src="../_images/font-metrics/cover.png" alt="font metrics" title="Font Metrics" style="max-height: 260px;"/>
+<img src="../_images/font-metrics/cover.png" alt="font metrics" title="Font Metrics" height="260px"/>
 
 # Font Metrics
 
