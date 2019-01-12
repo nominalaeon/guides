@@ -242,8 +242,6 @@ Thanks for reading!
 
 ## Addendum
 
-<img src="../_images/single-responsibility/how-could-you.png" height="260px" />
-
 **"that `assignStatus` function with the field names being passed in as strings just.....ugh"**
 
 The code here is meant to mime scenarios from a really weird cartoon. It is garbage parading as pseudo code. Please don't use this to illustrate some point about the state of front-end these days, and definitely don't ever copy/pasta any part of any of this into your own programs.
