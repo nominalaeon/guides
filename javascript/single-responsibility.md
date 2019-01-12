@@ -19,6 +19,7 @@ If Rick and Morty has taught me anything, it's how to write code. Just kidding, 
   - [Generic functions (reusing Meeseeks)](#generic-functions-reusing-meeseeks)
   - [Guard clauses (killing Meeseeks)](#guard-clauses-killing-meeseeks)
 - [Post-mortem](#post-mortem)
+- [Addendum](#addendum)
 
 * * **
 
@@ -238,3 +239,9 @@ The quality of life for a Meeseeks is directly tied to his ability to focus on a
 Thanks for reading!
 
 * * *
+
+## Addendum
+
+**"that `assignStatus` function with the field names being passed in as strings just.....ugh"**
+
+The code here is meant to mime scenarios from a really weird cartoon. It is garbage parading as pseudo code. Please don't use this to illustrate some point about the state of front-end these days, and definitely don't copy/pasta to your own programs.
