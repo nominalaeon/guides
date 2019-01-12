@@ -1,5 +1,5 @@
 
-<img src="../_images/var-let-const/cover.png" alt="var vs. let vs. const" title="var vs. let vs. const" height="260px"/>
+<img src="../_images/var-let-const/cover.png" alt="var vs. let vs. const" title="var vs. let vs. const" style="max-height: 260px;"/>
 
 # var & let & const
 
