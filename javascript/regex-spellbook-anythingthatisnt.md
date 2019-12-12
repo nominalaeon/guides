@@ -89,7 +89,7 @@ Surrounding everything is a non-capture group `(?:.)+`. It's job is to clump tog
 
 Most importantly, right before that period is a negative look-ahead, `(?!Pizza)` which makes sure that period selection isn't "Pizza".
 
-As soon as this expression comes up to "Pizza is", it stops dead in its tracks. From there we just capture the remaining phrase and insert "super delicious".
+As soon as this expression comes up to "Pizza", it stops dead in its tracks. From there we just capture the remaining phrase and insert "super delicious".
 
 <img src="../_images/regex-spellbook/pizzas-super-delicious.png" height="200px" />
 
@@ -108,8 +108,8 @@ It really does help to say it to yourself, outloud even, if that's what floats y
 // (?:(?!
 // that isn't
 
-// (?:(?!Pizza is
-// "Pizza is"
+// (?:(?!Pizza
+// "Pizza"
 ```
 
 ## Conclusion
