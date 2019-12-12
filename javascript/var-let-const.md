@@ -37,7 +37,7 @@ The common principle of any of these "clues" is hoisting. You can use any variab
 <a name="the-for-loop"></a>
 ### The "for" loop
 
-[The classic example](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch5.md#loops--closure) of misunderstood scoping is declaring your index variable in a `for` loop's argument.
+The classic example of misunderstood scoping is declaring your index variable in a `for` loop's argument.
 
     for (var x = 0; x < someArray.length; x++) {
         console.log(x) // 0, 1, 2 ...
