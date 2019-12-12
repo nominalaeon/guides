@@ -79,7 +79,7 @@ Parsing a two-sentence string breaks when there's three sentences or if the sent
 
 In regular expressions, there is a handy utility used to ignore single characters. Just like `/[P]/` will identify a capital-P, `/[^P]/` identifies any single thing that is not a capital-P.
 
-Such a thing would be very helpful if it detected more than a single character. In order to harness this power in long form we need to invoke "Anythingthatisnt..." (it really does help to say that phrase as you type it).
+Such a thing would be very helpful if it detected more than a single character. In order to harness this power in long form we need to invoke "Anythingthatisnt..."
 
 `(?:(?!Pizza).)+`
 
