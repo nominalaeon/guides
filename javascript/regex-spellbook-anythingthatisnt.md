@@ -7,6 +7,10 @@ Regular Expressions can be an intimidating venture, but the right spells can hel
 
 The following spell helps me mentally speak what I'm typing it out, "Anything that isn't..."
 
+```JavaScript
+new Regex(/(?:(?!word).)+/);
+```
+
 Using a negative match is a common use for a regex, and thinking about it as "Anything that isn't..." will help you remember how to do it correctly each time.
 
 * * **
@@ -117,3 +121,5 @@ I hope this will help you as much as it's helped me. Thank you for reading!
 * * *
 
 > p.s. No offense, Broccoli. I still love you.
+>
+> p.p.s If you love pizza, check out Dave Portnoy https://www.barstoolsports.com/bio/54/el-presidente
