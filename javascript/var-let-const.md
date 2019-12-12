@@ -3,18 +3,18 @@
 
 # var & let & const
 
-So you Googled **"should use var or let const es6 best practice good bad"**, and read enough Medium articles to feel certain you should *always* use `const` ...or maybe it was `let`. Either way, if an article du jour left you wondering whether `var` was silently removed from all the browser engines, there's a good chance [You Don't Know JavaScript&trade;](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch3.md#review-tldr).
+So you Googled **"should use var or let const es6 best practice good bad"**, and read enough Medium articles to feel certain you should *always* use `const` ...or maybe it was `let`. Either way, if an article du jour left you wondering whether `var` was silently removed from all the browser engines, there's a good chance [You Don't Know JavaScript&trade;](https://github.com/getify/You-Dont-Know-JS).
 
 Let's talk about `var`, the issues `let` and `const` came to solve, and maybe get a better idea of when and where each of these should be used.
 
 * * *
 
-- [The problem with "var"](#the-problem-with-%22var%22)
-- ["let" examples](#%22let%22-examples)
-  - [The "for" loop](#the-%22for%22-loop)
-  - [The "if" block](#the-%22if%22-block)
+- [The problem with &quot;var&quot;](#the-problem-with-quotvarquot)
+- [&quot;let&quot; examples](#quotletquot-examples)
+  - [The &quot;for&quot; loop](#the-quotforquot-loop)
+  - [The &quot;if&quot; block](#the-quotifquot-block)
   - [The late-comer example](#the-late-comer-example)
-- ["const" examples](#%22const%22-examples)
+- [&quot;const&quot; examples](#quotconstquot-examples)
 - [Hoisting](#hoisting)
 
 * * *
