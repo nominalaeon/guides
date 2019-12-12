@@ -40,7 +40,7 @@ Our job is to fix this sentence because pizza isn't "gross" at all. It's "super 
 
 ## How do we fix it?
 
-Unfortunately we can't just replace "gross" with "lazy":
+Unfortunately we can't just replace "gross" with "super delicious":
 
 ```JavaScript
 str.replace(/gross/, 'super delicious');
