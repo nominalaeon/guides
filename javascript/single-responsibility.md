@@ -26,7 +26,7 @@ If Rick and Morty has taught me anything, it's how to write code. Just kidding, 
 <a name="what-the-hockey-sticks-is-a-mr-meeseeks"></a>
 ## What the hockey sticks is a Mr. Meeseeks
 
-[Mr. Meeseeks](https://www.youtube.com/watch?v=KtNRU73CFzg) is an apparition, summoned from a thin air with the push of a button, who exists for as long as it takes him to fulfill a given request. The main goal of a Meeseeks is to complete his task as quickly as possible so he can go back to not existing.
+[Mr. Meeseeks](https://www.youtube.com/watch?v=KtNRU73CFzg) is an apparition, summoned from thin air with the push of a button, who exists for as long as it takes him to fulfill a given request. The main goal of a Meeseeks is to complete his task as quickly as possible so he can go back to not existing.
 
 <img src="../_images/single-responsibility/existence-pain.jpg" height="260px" />
 
@@ -94,7 +94,7 @@ I'm using JavaScript for my example code, but please note that the Single Respon
 <a name="arrow-code"></a>
 ### Arrow code
 
-If you zoom out in your script file, you'll see the code we create has patterns. This view looks like a sideways mountain range that peaks and valleys along the way.
+If you zoom out in your script file, you'll see your code creates a landscape. This view looks like a sideways mountain range that peaks and valleys along the way.
 
 ![](../_images/single-responsibility/code-mountains.png)
 
@@ -244,6 +244,6 @@ Thanks for reading!
 
 **"that `assignStatus` function with the field names being passed in as strings just.....ugh"**
 
-The code here is meant to mime scenarios from a really weird cartoon. It is garbage parading as pseudo code. Please don't use this to illustrate some point about the state of front-end these days, and definitely don't ever copy/pasta any part of any of this into your own programs.
+The code here is meant to mime scenarios from a weird cartoon. It is garbage parading as pseudo code. Please don't use this to illustrate some point about the state of front-end these days, and definitely don't ever copy/pasta code from the internet straight into your own programs.
 
 <img src="../_images/single-responsibility/gotta-relax.png" height="260px" />
