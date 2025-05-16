@@ -1,5 +1,5 @@
 
-<img src="../_images/font-metrics/cover.png" alt="font metrics" title="Font Metrics" height="260px"/>
+<img src="/_images/font-metrics/cover.png" alt="font metrics" title="Font Metrics" height="260px"/>
 
 # Font Metrics
 
@@ -11,13 +11,13 @@ It all starts with a font called Custom Fresh...
 
 * * *
 
-- [Custom Fresh<sup><small>™</small></sup>](#custom-freshsupsmall%E2%84%A2smallsup)
-- [Varying vertical-heights](#varying-vertical-heights)
-  - [Current metadata](#current-metadata)
-  - [Recalculated metadata](#recalculated-metadata)
-- [Demo](#demo)
-- [Updating a font](#updating-a-font)
-- [Fixing it old school](#fixing-it-old-school)
+* [Custom Fresh™](#custom-fresh)
+* [Varying vertical-heights](#varying-vertical-heights)
+  * [Current metadata](#current-metadata)
+  * [Recalculated metadata](#recalculated-metadata)
+* [Demo](#demo)
+* [Updating a font](#updating-a-font)
+* [Fixing it old school](#fixing-it-old-school)
 
 * * *
 
@@ -25,7 +25,7 @@ It all starts with a font called Custom Fresh...
 ## Custom Fresh<sup><small>™</small></sup>
 
 <p style="text-align: center;">
-    <img src="../_images/font-metrics/custom-fresh-preview.png" style="max-width: 460px; width: 100%;" title="Custom Fresh preview" />
+    <img src="/_images/font-metrics/custom-fresh-preview.png" style="max-width: 460px; width: 100%;" title="Custom Fresh preview" />
 </p>
 
 *Custom Fresh was created in 2016 and is a registered trademark of [BLKBK Type](https://blkbktyp.com/). Use of Custom Fresh in this document is for demonstration purposes only and is not available publicly.*
@@ -54,7 +54,7 @@ Here's a visual comparison of those metrics with shades of blue representing eac
 
 | OSX | Windows |
 |:--|--:|
-| <img src="../_images/font-metrics/mac-original-svg.png" /> | <img src="../_images/font-metrics/pc-original-svg.png"/> |
+| <img src="/_images/font-metrics/mac-original-svg.png" /> | <img src="/_images/font-metrics/pc-original-svg.png"/> |
 
 <a name="recalculated-metadata"></a>
 ### Recalculated metadata
@@ -71,7 +71,7 @@ Recalculating these values to be optimized for web viewing, they become:
 
 | OSX | Windows |
 |:--|--:|
-| <img src="../_images/font-metrics/mac-converted-svg.png"/> | <img src="../_images/font-metrics/pc-converted-svg.png"/> |
+| <img src="/_images/font-metrics/mac-converted-svg.png"/> | <img src="/_images/font-metrics/pc-converted-svg.png"/> |
 
 <a name="demo"></a>
 ## Demo
@@ -82,8 +82,8 @@ This demo shows that with an optimized version of Custom Fresh, the vertical-hei
 
 | | OSX | Windows |
 |:--|--:|--:|
-| *Original*  |  <img src="../_images/font-metrics/mac-original.png"/> |  <img src="../_images/font-metrics/pc-original.png"/> |
-| *Converted* | <img src="../_images/font-metrics/mac-converted.png"/> | <img src="../_images/font-metrics/pc-converted.png"/> |
+| *Original*  |  <img src="/_images/font-metrics/mac-original.png"/> |  <img src="/_images/font-metrics/pc-original.png"/> |
+| *Converted* | <img src="/_images/font-metrics/mac-converted.png"/> | <img src="/_images/font-metrics/pc-converted.png"/> |
 
 The original Custom Fresh renders in offset positions between OSX and Windows, but with the vertical-height metrics recalculated, each operating system renders identically.
 
